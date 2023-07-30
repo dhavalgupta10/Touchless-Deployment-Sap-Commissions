@@ -6,6 +6,7 @@
 Create Table Dhaval (
    ID INTEGER,
    NAME VARCHAR(10),
+   ADDRESS VARCHAR(255),
    PRIMARY KEY (ID)
 );
  
