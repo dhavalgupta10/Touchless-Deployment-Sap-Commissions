@@ -6,7 +6,7 @@
 Create Table Dhaval (
    ID INTEGER,
    NAME VARCHAR(10),
-   ADDRESS VARCHAR(255),
+   ADDRESS VARCHAR(250),
    PRIMARY KEY (ID)
 );
  
@@ -18,10 +18,11 @@ Create Table Dhaval (
 --preconditions onFail:CONTINUE
 --comment: Initial creation of table Dhaval
 --validCheckSum: ANY
---Create Table Payments (
+--Create Table Transaction (
   -- ID INTEGER,
    --NAME VARCHAR(10),
+   --UPI_ID VARCHAR(250),
   -- PRIMARY KEY (ID)
 --);
  
---rollback drop table Payments;
+--rollback drop table Dhaval;
